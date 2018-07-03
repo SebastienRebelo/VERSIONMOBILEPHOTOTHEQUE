@@ -1,0 +1,28 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation");
+
+
+body{
+  background-color: black;
+  color:white;
+  font-size: 62.5%;
+
+}
+
+h1{
+  font-size: 2.5rem;
+
+}
+h2{
+  font-size: 2.4rem;
+}
+
+p{
+  font-size: 1.0rem;
+  font-family: "Rancho" ;
+
+}
+
+h1,h2,p{
+  margin-bottom: 16px;
+}
