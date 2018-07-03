@@ -10,7 +10,7 @@
     {
         font-family: 'Montserrat', sans-serif;
         font-size: 1.8rem;
-        background: url('mobile/AC.png') no-repeat fixed;
+        background: url('../mobile/AC.png') no-repeat fixed;
         background-size: cover;
         min-height: 100vh;
 
