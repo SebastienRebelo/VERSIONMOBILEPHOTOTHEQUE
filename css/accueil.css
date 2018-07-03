@@ -2,15 +2,9 @@
 {
     body
     {
-        background-color: #333333;
-
-    }
-
-    main
-    {
-        height: 100vh;
         background: url('/mobile/ACCUEIL.png') no-repeat fixed;
         background-size: cover;
     }
+
 
 }
