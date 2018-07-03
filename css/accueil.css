@@ -4,6 +4,24 @@
     {
         background: url('/mobile/AC.png') no-repeat fixed;
         background-size: cover;
+        min-height: 100vh;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    form
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 250px;
+    }
+
+    input
+    {
+        margin-bottom: 10px;
+        height: 30px;
     }
 
 
