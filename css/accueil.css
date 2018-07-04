@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+
+html
+{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+}
+
 @media screen and (max-width: 650px)
 {
-    html
-    {
-        font-size: 62.5%
-    }
+
 
     body
     {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 1.8rem;
         background: url('../mobile/AC.png') no-repeat fixed;
         background-size: cover;
         min-height: 100vh;
