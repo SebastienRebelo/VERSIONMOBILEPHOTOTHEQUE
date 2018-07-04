@@ -3,9 +3,72 @@
 html
 {
     font-size: 62.5%;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.8rem;
 }
+
+body
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+}
+
+/* footer
+{
+  height: 75px;
+  width: 100%;
+  border-top: 1px white solid;
+  font-size: 2rem;
+  background-color: #333333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer a
+{
+  color: white;
+  text-decoration: none;
+}
+
+.copy_mentions li:first-child
+{
+  text-align: center;
+}
+
+.copy_mentions
+{
+  margin-right: 5%;
+}
+
+.icons
+{
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.icons i
+{
+  margin-left: 20px;
+  font-size: 3rem;
+}
+
+.fa-twitter {
+  color: #00A2ED;
+}
+
+.fa-facebook-f {
+  color: #365B94;
+}
+
+.fa-instagram {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+} */
 
 @media screen and (max-width: 650px)
 {
@@ -15,16 +78,19 @@ html
     {
         background: url('../mobile/AC.png') no-repeat fixed;
         background-size: cover;
-        min-height: 100vh;
 
-        display: flex;
-        justify-content: center;
-        overflow: hidden;
+    }
+
+    .test_form
+    {
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
     }
 
     form
     {
-        margin-top: 180px;
+        margin-top: 280px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -76,6 +142,11 @@ html
         color: inherit;
         text-decoration: inherit;
     }
+
+    /* footer
+    {
+      font-size: 1.25rem;
+    } */
 
 
 }
