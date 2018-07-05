@@ -171,34 +171,7 @@ footer a
     background: white;
   }
 
-  @media screen and (max-width: 1050px) {
-    footer
-    {
-      font-size: 1.5rem;
-    }
 
-    body
-    {
-      font-size: 1.5rem;
-    }
-
-    .container-fluid
-    {
-      justify-content: center;
-    }
-  }
-
-  @media screen and (max-width: 650px) {
-    footer
-    {
-      font-size: 1.25rem;
-    }
-
-    body
-    {
-      font-size: 1.25rem;
-    }
-  }
 
   .container-fluid
   {
@@ -238,4 +211,35 @@ footer a
   .hover_button:hover
   {
     transform: scale(1.3);
+  }
+
+  @media screen and (max-width: 1050px) {
+    footer
+    {
+      font-size: 1.5rem;
+    }
+
+    body
+    {
+      font-size: 1.5rem;
+    }
+
+    .container-fluid
+    {
+      justify-content: center;
+    }
+  }
+
+  
+
+  @media screen and (max-width: 650px) {
+    footer
+    {
+      font-size: 1.25rem;
+    }
+
+    body
+    {
+      font-size: 1.25rem;
+    }
   }
