@@ -21,9 +21,8 @@ body
 
     body
     {
-        background: url('../mobile/AC.png') no-repeat fixed;
+        background: url('../mobile/fond_co.png') no-repeat fixed;
         background-size: cover;
-
     }
     
     .form_style
@@ -35,7 +34,7 @@ body
 
     form
     {
-        margin-top: 280px;
+        /* margin-top: 280px; */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -105,5 +104,17 @@ body
     {
       padding: 5px;
       margin-top: 0;
+    }
+
+    .logo
+    {
+        display: block;
+        margin: auto;
+        margin-top: 55px;
+    }
+
+    .margin_bottom50
+    {
+        margin-bottom: 50px;
     }
 }
