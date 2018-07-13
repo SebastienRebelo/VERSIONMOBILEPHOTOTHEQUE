@@ -287,4 +287,17 @@ footer a
       z-index: 15;
       background-color: #333333;
     }
+
+    .barrederecherche{
+      width: 100%;
+      height: 50px;
+      background-color: white;
+    }
+    .recherchemobile{
+      width: 100%;
+      height: 50px;
+    }
+    .display-none{
+      display: none;
+    }
   }

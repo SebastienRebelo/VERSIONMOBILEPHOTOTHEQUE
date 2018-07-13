@@ -33,12 +33,6 @@
   </header>
 
   <main>
-    <div class="box">
-      <div class="container-4">
-        <input type="search" id="search" placeholder="Recherche..." />
-        <button class="icon"><i class="fa fa-search"></i></button>
-      </div>
-    </div>
 <?php
   $dos = "imgbd/min";
   $dir = opendir($dos);

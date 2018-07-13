@@ -5,6 +5,8 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="=device-, initial-scale=1">
   <title>Phototeque</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -15,27 +17,22 @@
   <header>
 
   <img src="mobile/logo.png" alt="simplotheque" class="img-fluid mx-auto logo_header">
-    
-  <!-- <div class="bouton_head">
-      <div class="box">
-      <div class="container-4">
-        <input type="search" id="search" placeholder="Recherche..." />
-        <button class="icon"><i class="fa fa-search"></i></button>
-      </div>
-    </div>
-    <button type="button" class="hover_button" name="connexion" data-target="#modal_connexion" data-toggle="modal"><i class="fas fa-user fa-2x"></i></button>
-    <button type="button" class="hover_button" data-toggle="modal" data-target="#exampleModal" ><i class="fas fa-images fa-2x"></i></button>
-  </div> -->
+
+
 
   <nav>
-      <a href="#"><i class="fas fa-search fa-2x"></i></a>
+      <div class="fas fa-search fa-2x" id="iconSearch"></div>
       <a href="index.php>"><i class="fas fa-home fa-2x"></i></a>
       <a href="#"><i class="fas fa-images fa-2x"></i></a>
       <a href="../formulaire.html"><i class="fas fa-user fa-2x"></i></a>
       <a href="#"><i class="far fa-sun fa-2x"></i></a>
   </nav>
+	<div class="barrederecherche display-none" id="barrederecherche">
+    <input class="recherchemobile" type="text" name="recherche" value="" placeholder="Recheche...">
+	</div>
+</div>
 
- 
+
 
   <!-- MODAL -->
   <div class="modal fade mx-auto" id="modal_connexion">
@@ -54,3 +51,8 @@
     </div>
   </div>
 </header>
+
+
+<script type="text/javascript" src="js/scripts.js">
+
+</script>
