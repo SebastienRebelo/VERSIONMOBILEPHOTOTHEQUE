@@ -1,0 +1,35 @@
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-size: 2rem;
+    background-color: #333333;
+    color: white;
+}
+
+form
+{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input, textarea
+{
+    width: 250px;
+    background: transparent;
+    color: white;
+    font-size: 1.4rem;
+    border: 2px solid white;
+    text-indent: 5px;
+}
+
+textarea
+{
+    height: 75px;
+}
