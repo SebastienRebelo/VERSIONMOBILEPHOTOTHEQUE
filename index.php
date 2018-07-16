@@ -72,10 +72,10 @@
     echo $erreur;
   }
 ?>
-  <form method="POST" action="#" enctype="multipart/form-data">
+  <!-- <form method="POST" action="#" enctype="multipart/form-data">
       <input type="file" class="test_input">
       <input type="submit" class="test_input2" />
-  </form>
+  </form> -->
   </main>
 
 <?php include("html/footer.html"); ?>
