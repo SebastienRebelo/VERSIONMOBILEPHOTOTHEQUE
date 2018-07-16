@@ -73,9 +73,8 @@
   }
 ?>
   <form method="POST" action="#" enctype="multipart/form-data">
-		<label for="icone"></label><br />
-    	<input type="file" name="upload" />
-      <button><i class="fas fa-check fa-1x"></i></button>
+      <input type="file" class="test_input">
+      <input type="submit" class="test_input2" />
   </form>
   </main>
 
