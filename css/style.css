@@ -221,7 +221,6 @@ footer a
 
   .test_input
   {
-    display: none;
     position: absolute;
     top: 0;
     left: 0;
@@ -233,7 +232,6 @@ footer a
 
 .test_input2
 {
-  display: none;
   position: absolute;
   top: 10px;
   left: 0;
@@ -319,7 +317,7 @@ footer a
       background-color: white;
       z-index: 10;
       position: absolute;
-      margin-top: 100px;
+      margin-top: 50px;
     }
     .recherchemobile{
       width: 100%;
