@@ -47,25 +47,25 @@
 
 	<div class="container-fluid">
 
-	<?php
-	  $dos = "imgbd/min";
-	  $dir = opendir($dos);
-	  while($file = readdir($dir)){
-	    $allow_ext = array("jpg","png","gif");
-	    $ext = strtolower(substr($file,-3));
-	    if(in_array($ext,$allow_ext)) {
-	      ?>
-					<div class="margin_img">
-						<a href="imgbd/<?php echo $file; ?>">
-							<img class="boxshadow" src="imgbd/min/<?php echo $file; ?>">
-						</a>
-					<h3 class="margin_txt"> <?php echo strtolower(substr($file,0,-4)) ?></h3>
+      <?php
+      $dos = "imgbd/min";
+      $dir = opendir($dos);
+        while ($file = readdir($dir)) {
+          $allow_ext = array("jpg","png","gif","peg");
+          $ext = strtolower(substr($file, -3));
+          if (in_array($ext, $allow_ext)) {
+        ?>
+          <div class="margin_img">
+            <a href="imgbd/<?php echo $file; ?>">
+              <img class="boxshadow lazyload" src="img/black.png" alt="img lazy load"  data-src="imgbd/min/<?php echo $file; ?>">
+            </a>
+            <h3 class="margin_txt"> <?php echo strtolower(substr($file, 0, -4)) ?></h3>
           </div>
 
-	      <?php
-	    }
-	  }
-		?>
+          <?php
+          }
+      }
+      ?>
 
 <?php
   if(isset($erreur)) {
