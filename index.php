@@ -43,7 +43,10 @@
     </div>
   </div>
 </div>
-
+  <form class="uploadFormMobile" action="" method="post">
+    <input type="text" class="input_form" placeholder="Tag" name="" value="">
+    <button type="submit" id="uploadfilemobile" class="btn" name="button" >Envoyer</button>
+  </form>
 
 	<div class="container-fluid">
 
