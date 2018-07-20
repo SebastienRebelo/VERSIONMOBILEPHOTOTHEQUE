@@ -4,7 +4,7 @@ $(document).ready(function(){
       $(this).slideLeft(1);
   });
   $('#inputFile').click(function() {
-    $('.uploadFormMobile').addClass('display-block');
+    $('.upup').addClass('display-block');
   });
   $('.btn').click(function() {
   $('#uploadfilemobile').removeClass('display-block');
