@@ -19,6 +19,10 @@ main
   margin: auto;
 }
 
+.display_none
+{
+  display: none;
+}
 /* .row img
 {
   margin-top: 10px;
@@ -348,6 +352,12 @@ footer a
       display: none;
 
     }
+
+    .display_none
+    {
+      display: flex;
+    }
+    
 .inputFile{
   font-size: 0px;
   width: 0px;
