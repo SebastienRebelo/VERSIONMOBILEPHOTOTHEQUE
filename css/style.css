@@ -303,8 +303,12 @@ footer a
     body
     {
       font-size: 1.25rem;
+<<<<<<< HEAD
+
+=======
       background: url(https://image.noelshack.com/fichiers/2018/30/2/1532443981-psd-fond-decran-accueil.jpg);
       background-size: contain;
+>>>>>>> 68e9ea0009bb5d001239d36deced055c08987b2e
     }
 
     .container-fluid img:hover {
