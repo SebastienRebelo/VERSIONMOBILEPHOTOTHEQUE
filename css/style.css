@@ -1,4 +1,5 @@
 @import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 html
 {
@@ -9,6 +10,7 @@ body
 {
   min-height: 100%;
   color: white;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   position: relative;
 }
@@ -301,6 +303,7 @@ footer a
     {
       font-size: 1.25rem;
       background: url(https://image.noelshack.com/fichiers/2018/30/2/1532443981-psd-fond-decran-accueil.jpg);
+      background-size: contain;
     }
 
     .container-fluid img:hover {
